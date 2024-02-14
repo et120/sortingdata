@@ -10,8 +10,109 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-  <h1>Sorting Data</h1>
+<body style="background-color: rgb(55, 47, 47); color: white;">
+  <div class="container text-center" style="height: 10vh;">
+    <div class="row">
+      <div class="col pt-3">
+        <h1>Sorting Data</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center border rounded overflow-auto" style="height: 80vh;">
+    <div class="row">
+      <div class="col-2">
+        <div class="row border-bottom py-4 mx-auto">
+          <div class="col">
+            <h4>ID</h4>
+          </div>
+          <div class="col d-flex align-items-center">
+            <button id="idBtn" class="rounded btn btn-light btn-sm">Sort <span><img id="idIcon" src="./assets/faSortNumericAsc.png" alt="arrow up" style="width: 2vh;"></span></button>
+          </div>
+        </div>
+        <div id="idDiv" class="pt-3"></div>
+      </div>
+      <div class="col-2">
+        <div class="row border-bottom py-4 mx-auto">
+          <div class="col">
+            <h4>First</h4>
+          </div>
+          <div class="col d-flex align-items-center">
+            <button id="firstBtn" class="rounded btn btn-light btn-sm">Sort <span><img id="firstIcon" src="./assets/faUnsorted.png" alt="arrow up" style="width: 2vh;"></span></button>
+          </div>
+        </div>
+        <div id="firstNameDiv" class="pt-3"></div>
+      </div>
+      <div class="col-2">
+        <div class="row border-bottom py-4 mx-auto">
+          <div class="col">
+            <h4>Last</h4>
+          </div>
+          <div class="col d-flex align-items-center">
+            <button id="lastBtn" class="rounded btn btn-light btn-sm">Sort <span><img id="lastIcon" src="./assets/faUnsorted.png" alt="arrow up" style="width: 2vh;"></span></button>
+          </div>
+        </div>
+        <div id="lastNameDiv" class="pt-3"></div>
+      </div>
+      <div class="col-2">
+        <div class="row border-bottom py-4 mx-auto">
+          <div class="col">
+            <h4>Email</h4>
+          </div>
+        </div>
+        <div id="emailDiv" class="overflow-auto pt-3"></div>
+      </div>
+      <div class="col-2">
+        <div class="row border-bottom py-4 mx-auto">
+          <div class="col">
+            <h4>Height</h4>
+          </div>
+          <div class="col d-flex align-items-center">
+            <button id="heightBtn" class="rounded btn btn-light btn-sm">Sort <span><img id="heightIcon" src="./assets/faUnsorted.png" alt="arrow up" style="width: 2vh;"></span></button>
+          </div>
+        </div>
+        <div id="heightDiv" class="pt-3"></div>
+      </div>
+      <div class="col-2">
+        <div class="row border-bottom py-4 mx-auto">
+          <div class="col">
+            <h4>Age</h4>
+          </div>
+          <div class="col d-flex align-items-center">
+            <button id="ageBtn" class="rounded btn btn-light btn-sm">Sort <span><img id="ageIcon" src="./assets/faUnsorted.png" alt="arrow up" style="width: 2vh;"></span></button>
+          </div>
+        </div>
+        <div id="ageDiv" class="pt-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-4 pe-0">
+    <div class="row">
+      <div class="col">
+        <button id="previousBtn" class="btn btn-light">Previous</button>
+        <button id="nextBtn" class="btn btn-light">Next</button>
+      </div>
+      <div class="col">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-end">
+            <li class="page-item disabled">
+              <a class="page-link">View</a>
+            </li>
+            <li class="page-item"><button id="show10" class="page-link">10</button></li>
+            <li class="page-item"><button id="show20" class="page-link">20</button></li>
+            <li class="page-item"><button id="show30" class="page-link">30</button></li>
+            <li class="page-item"><button id="show40" class="page-link">40</button></li>
+            <li class="page-item"><button id="show50" class="page-link">50</button></li>
+            <li class="page-item disabled">
+              <a class="page-link">results</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  
 
 
 
