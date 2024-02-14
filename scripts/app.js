@@ -192,9 +192,6 @@ function createPeople(person) {
 
 // Populate Page Function
 async function populate(sortType) {
-    // this fetches our data and stores it into variable
-    // let newPeopleList;
-
     // apply sort type
     switch (sortType) {
         case "idBtn":
@@ -221,11 +218,6 @@ async function populate(sortType) {
     fieldDiv.forEach(field => { field.textContent = ""; });
 
     // map through each element in our array
-    // newPeopleList.map((person, index) => {
-    //     if (index < limitShown) {
-    //         createPeople(person);
-    //     }
-    // });
     newPeopleList.slice(startInc, startInc + limitShown).map(person => {
         createPeople(person);
     });
