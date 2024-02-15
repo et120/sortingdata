@@ -4,14 +4,15 @@
 
 ### Project Scope: 
 
-This was a `single day sprint` challenge where I built out a `data sorting app` that allows you to sort in ascending and descending order in each field. This was a `desktop build` that utilized `vanilla JavaScript`, `HTML`, and the `Bootstrap Framework`. 
+This was a `Time-Crunch Sprint` challenge where I built out a `data sorting app` that allows you to sort in ascending and descending order in each field. This was a `desktop build` that utilized `vanilla JavaScript`, `HTML`, and the `Bootstrap Framework`. 
 
-- This challenge was fun to work on, and I had the opportunity to learn more about the `.sort()` method. The code could use some refactoring if it is to be revisited in the future.
+- This challenge was fun to work on as I am a big fan of Microsoft Excel (*which was the inspiration behind my minimal design*), and I had the opportunity to learn more about the `.sort()` method. The code could use some refactoring if it is to be revisited in the future.
 
-- Click :point_right: [here](#desktop-preview) to scroll down to a preview of the task tracking app in action or check the status badge above to view the deployed website.
+- Click :point_right: [here](#time-crunch-challenges) to scroll down to view other challenges in this series.
 
-> [!NOTE]  
-> The project focused on functionality first, meeting the client's requirements, and supplying a working product prior to the deadline. There is opportunity to improve the UI & UX design and responsiveness, if desired. 
+> [!IMPORTANT]  
+> This project was part of a sprint challenge series that focused on functionality first, meeting the client's requirements, and supplying a working product prior to the time-crunched deadline. **There is opportunity to improve the UI & UX design and responsiveness, if desired.**
+
 
 ***Client Requirements:***
 
@@ -26,8 +27,20 @@ This was a `single day sprint` challenge where I built out a `data sorting app` 
     - Age
 - [x] Use creating elements
 - [x] Tested
-- [x] Vanilla JavaScript
 - [x] Desktop build
+&nbsp;
+---
+
+## Time-Crunch Challenges
+
+| Sprint | Repo Name | Description |
+| --- | --- | --- |
+| Day 1 | [Task Tracker](https://github.com/et120/tasktracker) | Enter tasks & track the progress | 
+| Day 2 | [Random Group Generator](https://github.com/et120/randomnamegeneratorgroups) | Enter names & generate random groups |
+| Day 3 | [Sorting Data](https://github.com/et120/sortingdata) | Sort in ascending & descending order in each field |
+| Day 4 | [Budget App](https://github.com/et120/budgetapp) | Set a budget & add expenses |
+
+---
 
 ### Desktop Preview
 ![alt text](./assets/preview.png)
