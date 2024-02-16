@@ -6,7 +6,7 @@
 
 This was a `Time-Crunch Sprint` challenge where I built out a `data sorting app` that allows you to sort in ascending and descending order in each field. This was a `desktop build` that utilized `vanilla JavaScript`, `HTML`, and the `Bootstrap Framework`. 
 
-- This challenge was fun to work on as I am a big fan of Microsoft Excel (*which was the inspiration behind my minimal design*), and I had the opportunity to learn more about the `.sort()` method. The code could use some refactoring if it is to be revisited in the future.
+- I had a great time working on this challenge as I have a penchant for well-organized data, and it provided me with the chance to enhance my understanding of the .sort() method. If the code is revisited in the future, it could benefit from some refactoring.
 
 - Click :point_right: [here](#time-crunch-challenges) to scroll down to view other challenges in this series.
 
